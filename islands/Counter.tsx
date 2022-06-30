@@ -3,6 +3,7 @@ import { h } from "preact";
 import { useState } from "preact/hooks";
 import { IS_BROWSER } from "$fresh/runtime.ts";
 import { tw } from "@twind";
+import { Button } from "https://cdn.skypack.dev/@chakra-ui/react";
 
 interface CounterProps {
   start: number;
