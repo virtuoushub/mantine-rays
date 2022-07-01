@@ -3,6 +3,7 @@ import { h } from "preact";
 import { useState } from "preact/hooks";
 import { IS_BROWSER } from "$fresh/runtime.ts";
 import { tw } from "@twind";
+import { Button } from "https://cdn.skypack.dev/@mantine/core?dts";
 
 interface CounterProps {
   start: number;
@@ -28,6 +29,7 @@ export default function Counter(props: CounterProps) {
       >
         +1
       </button>
+      <Button>Hello fresh mantine!</Button>
     </div>
   );
 }
